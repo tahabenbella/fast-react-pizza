@@ -24,7 +24,7 @@ jobs:
       - name: Build application
         run: npm run build
       - name: Build application
-        run: npm run start
+        run: npm run serve
 
       # - name: Deploy to remote server
       #   run: |
